@@ -1,0 +1,33 @@
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-dots="true" interval='1'>
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150" />
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class="text">
+  <view class="line_flag"></view>
+  <text>精选好物</text>
+</view>
+<navigator url='../detail/detail'>
+  <view class='single_goods'>
+    <view class='single_image_wrap'>
+      <image src='/images/timg.jpg' class='single_goods_image'></image>
+    </view>
+    <view class='single_goods_infor'>
+      <view class='single_goods_name'>
+        <text>枣花蜂蜜纯天然农家自产自制野生纯正手工土蜂蜜高档礼盒装单瓶</text>
+      </view>
+      <view class='single_goods_address'>
+        <text>山东临沂</text>
+      </view>
+      <view class='single_goods_price'>
+        <text>¥115.00</text>
+      </view>
+      <view class="carImgWrap">
+        <image src="/images/car.png" class="carImg"></image>
+      </view>
+    </view>
+  </view>
+</navigator>
